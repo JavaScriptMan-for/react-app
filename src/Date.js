@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 class Date extends React.Component {
   constructor(props) {
     super(props);

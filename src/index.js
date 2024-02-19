@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Header from './Header';
@@ -11,18 +11,18 @@ import reportWebVitals from './reportWebVitals';
 
 
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   //code
-// );
 const header = ReactDOM.createRoot(document.querySelector('#root'));
 header.render(
   <>
   <Header />
-  <Nav />
+  <Nav/>
   <Main />
   <Interective />
-  <Footer />
   <Date />
+  <Footer />
+  
   </>
 )
+
+export default header;
+reportWebVitals()
