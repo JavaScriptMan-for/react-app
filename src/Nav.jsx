@@ -17,7 +17,7 @@ function Nav() {
             <>
             <nav>
              <a id="a_1" onClick={main}>Главная страница</a>
-                <a id="a_2" onClick={info}>Информация</a>
+                <a id="a_2" onClick={info}>Информация о проектах</a>
                 <a id="a_3" onClick={reg} >Регестрация</a>
                 <a id="a_4" onClick={we}>Наши партнёры</a>
             </nav>
